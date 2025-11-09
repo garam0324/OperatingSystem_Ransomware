@@ -5,5 +5,9 @@
 ---
 
 ## 주요 파일
-- `dkuware.c` - 메인 공격 로직 :contentReference[oaicite:0]{index=0}
+- `dkuware.c` : 메인 공격 로직
   * 파일 스캔·스레드 제어·공격/복구
+- `crypto.c` : AES 암/복호화·랜덤 바이트/XOR 유틸 구현
+- `utils.c` : 파일 입출력 보조·기타 유틸리티
+- `Makefile` : 빌드용
+- `target/` : 테스트용 대상 파일 디렉터리
